@@ -1,0 +1,138 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .main-container {
+    align-items: center;
+  }
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 991px) {
+  .sub-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.content-container {
+  padding: 25px;
+  min-width: 300px;
+  order: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .content-container {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 180px;
+  }
+}
+
+.heading-style {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* @media screen and (max-width: 991px) {
+  
+} */
+@media screen and (max-width: 991px) {
+  .heading-style {
+    font-size: 30px;
+  }
+}
+
+.paragraph-style {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+}
+.label-style {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .label-style {
+    font-size: 13px;
+  }
+}
+
+.input-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  outline: none;
+  padding: 15px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #e4e7eb;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .input-style {
+    font-size: 14px;
+  }
+}
+
+.small-container {
+  height: 50px;
+  width: 200px;
+  background-color: #e4e7eb;
+  border-radius: 10px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #219a6f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .small-container {
+    font-size: 17px;
+  }
+}
+
+.calculator-style {
+  width: 50%;
+  order: 2;
+}
+
+@media screen and (max-width: 991px) {
+  .calculator-style {
+    order: 1;
+  }
+}
